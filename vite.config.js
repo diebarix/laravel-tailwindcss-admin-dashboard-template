@@ -7,6 +7,7 @@ export default defineConfig({
     laravel({
       input: [
         'resources/css/app.css',
+        'resources/css/cliente.css',
         'resources/js/app.js',
       ],
       refresh: true,
@@ -21,5 +22,5 @@ export default defineConfig({
     include: [
       '@tailwindConfig',
     ]
-  },   
+  },
 });
